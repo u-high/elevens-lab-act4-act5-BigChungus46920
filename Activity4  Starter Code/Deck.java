@@ -39,6 +39,7 @@ public class Deck {
        size++;
      }
    }
+   shuffle();
    }
  
 
@@ -69,10 +70,33 @@ public class Deck {
   * and reset the size to represent the entire deck.
   */
  public void shuffle() {
- Shuffler test = new Shuffler();
- test.selectionShuffle(cards);
+   double pls =0;
+   Card b;
+   int j = 0;
+   for ( int k = cards.size()-1; k>0; k--){
+     pls = Math.random()*(k+1);
+     j=(int)pls;
+     b = cards.get(k);
+     cards.set(k,cards.get(j)); 
+     cards.set(j,b);
+   }
    
    
+   
+   
+   /*
+     double pls =0;
+   int b =0;
+   int j =0;
+   
+    for( int k = values.length-1; k>0; k--){
+      pls= Math.random()*(k+1);
+      j=(int)pls;
+      
+      b= values[k];
+      values[k]=values[j];
+      values[j]=b;
+   */
  }
 
  /**

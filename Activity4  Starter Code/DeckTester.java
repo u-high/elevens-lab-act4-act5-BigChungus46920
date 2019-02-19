@@ -14,9 +14,8 @@ public class DeckTester {
    String[] suits = {"Spades","Diamonds","Clubs","Hearts"};
    int[] values ={1,2,3,4,5,6,7,8,9,10,11,12,13,14};
    Deck test = new Deck(ranks,suits,values);
-   System.out.println(""+test.size());
-   System.out.println(""+test.deal());
-   System.out.println(""+test.size());
+   System.out.println(test);
+   
    
  }
 }
