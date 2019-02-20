@@ -36,26 +36,26 @@ contain {4, 3, 2, 1}?
 
 _*Buggy1:*_  
 
-* Constructor or Method (write method name):
-* Describe a Possible Code Error:
+* Constructor or Method (isEmpty):
+* Describe a Possible Code Error: showing deck is not empty for an empty deck
 
 
 
 
 _*Buggy2:*_
-  * Constructor or Method (write method name):
-  * Describe a Possible Code Error:
+  * Constructor or Method (Size):
+  * Describe a Possible Code Error: Shoeing the size of deck is zero even though the deck has one card in the deck
 
 
 
 _*Buggy3:*_
 
-* Constructor or Method (write method name):
-* Describe a Possible Code Error:
+* Constructor or Method (shuffler):
+* Describe a Possible Code Error: The Shuffle method is either only shuffling the deck in the same order or the shuffle method is not shuffling at all.
 
 
 
 _*Buggy4:*_
 
-* Constructor or Method (write method name):
-* Describe a Possible Code Error:
+* Constructor or Method (Deal):
+* Describe a Possible Code Error: When dealing a deck with the size of one, their is no card dealt.
